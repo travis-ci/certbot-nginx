@@ -1,8 +1,6 @@
-language: minimal
+language: shell
 
 services:
     - docker
-
-before_script: skip
 
 script: make ship
